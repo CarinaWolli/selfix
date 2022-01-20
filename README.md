@@ -1,5 +1,8 @@
 # Selfix application
 
+## Project backgrounds
+This project is a university project that was created by a team of 4 students. 
+
 ## Prerequisites
 
 - install nodejs from the [official website](https://nodejs.org/en/) - nodejs includes [npm](https://www.npmjs.com/) (node package manager)
