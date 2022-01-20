@@ -1,0 +1,33 @@
+services:
+  selfix-db:
+    image: mongo:latest
+    ports:
+      - '27037-27039:27017-27019'
+    volumes:
+      - $PWD/backend/database/:/docker-entrypoint-initdb.d/
+      - $PWD/backend/mongo-volume/selfix:/data/db
+    environment:
+      MONGO_INITDB_DATABASE: "selfix"
+      MONGO_INITDB_ROOT_USERNAME: "selfix"
+      MONGO_INITDB_ROOT_PASSWORD: "123456"
+    command: mongod
+
+  mongo-express:
+    image: mongo-express
+    restart: always
+    ports:
+      - 8111:8081
+    environment:
+      #- ME_CONFIG_MONGODB_PORT=27037
+      - ME_CONFIG_MONGODB_SERVER=selfix-db
+      - ME_CONFIG_MONGODB_ADMINUSERNAME=selfix
+      - ME_CONFIG_MONGODB_ADMINPASSWORD=123456
+    depends_on:
+      - selfix-db
+
+  fileuploadserver:
+    build: fileupload/.
+    ports:
+      - 5000:5000
+    volumes:
+      - $PWD/fileupload/mongo-volume/files:/usr/src/app/files

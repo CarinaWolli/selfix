@@ -1,0 +1,59 @@
+Title:
+====================
+Replace bicycle pedals
+
+====================
+
+Description:
+====================
+Easily replace your old bicycle pedals with new ones!
+
+====================
+
+Title 1:
+====================
+Check pedal types
+
+====================
+
+Text 1:
+====================
+Depending on your pedals you might need different tools.
+
+If you have a pedal which has a place for a wrench to grab on to as show in the left picture, you will need a Pedal Wrench.
+
+If you have a pedal, which has a Hex Tool hole in the pedal thread as show in right picture, you will need a Hex Tool with a size of 8mm.
+
+====================
+
+Title 2:
+====================
+Remove old pedals
+
+====================
+
+Text 2:
+====================
+You need to loosen both sides in the same direct as left pedals are threaded in a different directions than right pedals.
+
+Now with your tool facing to the rear of the bike, keep the pedal in place or press downwards on your tool. This should loosen the pedal and you can remove it by hand.
+
+====================
+
+Title 3:
+====================
+Mount new pedals
+
+====================
+
+Text 3:
+====================
+Grab your new pedals and make sure you use the correct pedal for the correct side and screw it in by hand. Grab some mechanical lube and apply it to the pedals thread so you can remove your pedals at a later date again.
+
+Now screw the thread into the crank by hand and then grab your tool again.
+
+With the tool facing toward the front of the bike, press down on the tool while keeping the pedal in place to affix the pedal to the crank. Don't use too much force or you will not be able to loosen the pedal again at a later date.
+
+And with that you should be done and can ride off with your new pedals!
+
+====================
