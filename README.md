@@ -1,7 +1,7 @@
 # Selfix application
 
-## Project backgrounds
-This project is a university project that was created by a team of 4 students. 
+## Project background
+This app is a university project created by 4 students of the Technical University of Munich.
 
 ## Prerequisites
 
